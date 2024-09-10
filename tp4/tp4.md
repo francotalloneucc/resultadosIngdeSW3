@@ -41,13 +41,13 @@ Estas prácticas son esenciales en el desarrollo de software ágil y permiten la
 
 #### 4- Pasos del TP
  - 4.1 Verificar acceso a Pipelines concedido
-![Descripción de la imagen](imagen1.jpeg)
+![Descripción de la imagen](imagen1.jpg)
 
 
  - 4.2 Agregar en pipeline YAML una tarea de Publish. 
-![Descripción de la imagen](imagen2.jpeg)
-![Descripción de la imagen](imagen3.jpeg)
-![Descripción de la imagen](imagen4.jpeg)
+![Descripción de la imagen](imagen2.jpg)
+![Descripción de la imagen](imagen3.jpg)
+![Descripción de la imagen](imagen4.jpg)
 
 
  - 4.3 Explicar por qué es necesario contar con una tarea de Publish en un pipeline que corre en un agente de Microsoft en la nube.
@@ -55,22 +55,22 @@ Estas prácticas son esenciales en el desarrollo de software ágil y permiten la
 La tarea de Publish en un pipeline en la nube es esencial porque los agentes son efímeros y se eliminan al finalizar. Publicar los artefactos asegura su persistencia, facilita la distribución entre etapas y permite la trazabilidad y control de versiones.
 
  - 4.4 Descargar el resultado del pipeline y correr localmente el software compilado.
-![Descripción de la imagen](imagen5.jpeg)
-![Descripción de la imagen](imagen6.jpeg)
-![Descripción de la imagen](imagen7.jpeg)
+![Descripción de la imagen](imagen5.jpg)
+![Descripción de la imagen](imagen6.jpg)
+![Descripción de la imagen](imagen7.jpg)
 
 
  - 4.5 Habilitar el editor clásico de pipelines. Explicar las diferencias claves entre este tipo de editor y el editor YAML.
-![Descripción de la imagen](imagen8.jpeg)
+![Descripción de la imagen](imagen8.jpg)
 
 
  - 4.6 Crear un nuevo pipeline con el editor clásico. Descargar el resultado del pipeline y correr localmente el software compilado.
-![Descripción de la imagen](imagen9.jpeg)
-![Descripción de la imagen](imagen10.jpeg)
-![Descripción de la imagen](imagen11.jpeg)
-![Descripción de la imagen](imagen12.jpeg)
-![Descripción de la imagen](imagen13.jpeg)
-![Descripción de la imagen](imagen14.jpeg)
+![Descripción de la imagen](imagen9.jpg)
+![Descripción de la imagen](imagen10.jpg)
+![Descripción de la imagen](imagen11.jpg)
+![Descripción de la imagen](imagen12.jpg)
+![Descripción de la imagen](imagen13.jpg)
+![Descripción de la imagen](imagen14.jpg)
 
 
 
@@ -78,16 +78,16 @@ La tarea de Publish en un pipeline en la nube es esencial porque los agentes son
  - 4.7 Configurar CI en ambos pipelines (YAML y Classic Editor). Mostrar resultados de la ejecución automática de ambos pipelines al hacer un commit en la rama main.
 
 Classic Editor:
-![Descripción de la imagen](imagen15.jpeg)
-![Descripción de la imagen](imagen16.jpeg)
+![Descripción de la imagen](imagen15.jpg)
+![Descripción de la imagen](imagen16.jpg)
 
 
 
 yaml:
-![Descripción de la imagen](imagen17.jpeg)
-![Descripción de la imagen](imagen18.jpeg)
-![Descripción de la imagen](imagen19.jpeg)
-![Descripción de la imagen](imagen20.jpeg)
+![Descripción de la imagen](imagen17.jpg)
+![Descripción de la imagen](imagen18.jpg)
+![Descripción de la imagen](imagen19.jpg)
+![Descripción de la imagen](imagen20.jpg)
 
 
 
@@ -109,56 +109,56 @@ Es conveniente usar un Self-Hosted Agent cuando se necesita acceso a recursos es
 
 
  - 4.8 Crear un Pool de Agentes y un Agente Self-Hosted
-![Descripción de la imagen](imagen21.jpeg)
-![Descripción de la imagen](imagen22.jpeg)
+![Descripción de la imagen](imagen21.jpg)
+![Descripción de la imagen](imagen22.jpg)
 
 
  - 4.9 Instalar y correr un agente en nuestra máquina local.
-![Descripción de la imagen](imagen23.jpeg)
-![Descripción de la imagen](imagen24.jpeg)
-![Descripción de la imagen](imagen25.jpeg)
-![Descripción de la imagen](imagen26.jpeg)
+![Descripción de la imagen](imagen23.jpg)
+![Descripción de la imagen](imagen24.jpg)
+![Descripción de la imagen](imagen25.jpg)
+![Descripción de la imagen](imagen26.jpg)
 
 
 
 
  - 4.10 Crear un pipeline que use el agente Self-Hosted alojado en nuestra máquina local.
-![Descripción de la imagen](imagen27.jpeg)
-![Descripción de la imagen](imagen28.jpeg)
+![Descripción de la imagen](imagen27.jpg)
+![Descripción de la imagen](imagen28.jpg)
 
 
 
  - 4.11 Buscar el resultado del pipeline y correr localmente el software compilado.
-![Descripción de la imagen](imagen29.jpeg)
+![Descripción de la imagen](imagen29.jpg)
 
 
  - 4.12 Crear un nuevo proyecto en ADO clonado desde un repo que contenga una aplicación en Angular como por ejemplo https://github.com/ingsoft3ucc/angular-demo-project.git
-![Descripción de la imagen](imagen30.jpeg)
-![Descripción de la imagen](imagen31.jpeg)
+![Descripción de la imagen](imagen30.jpg)
+![Descripción de la imagen](imagen31.jpg)
 
 
 
  - 4.13 Configurar un pipeline de build para un proyecto de tipo Angular como el clonado.
-![Descripción de la imagen](imagen32.jpeg)
-![Descripción de la imagen](imagen33.jpeg)
+![Descripción de la imagen](imagen32.jpg)
+![Descripción de la imagen](imagen33.jpg)
 
 
 
  - 4.14 Habilitar CI para el pipeline.
-![Descripción de la imagen](imagen34.jpeg)
+![Descripción de la imagen](imagen34.jpg)
 
 
  - 4.15 Hacer un cambio a un archivo del proyecto (algún cambio en el HTML que se renderiza por ejemplo) y verificar que se ejecute automáticamente el pipeline.
-![Descripción de la imagen](imagen35.jpeg)
+![Descripción de la imagen](imagen35.jpg)
 
 
  - 4.16 Descargar el resultado del pipeline y correr en un servidor web local el sitio construido.
-![Descripción de la imagen](imagen36.jpeg)
+![Descripción de la imagen](imagen36.jpg)
 
 
  - 4.17 Mostrar el antes y el después del cambio.
-![Descripción de la imagen](imagen37.jpeg)
-![Descripción de la imagen](imagen38.jpeg)
+![Descripción de la imagen](imagen37.jpg)
+![Descripción de la imagen](imagen38.jpg)
 
 
 
