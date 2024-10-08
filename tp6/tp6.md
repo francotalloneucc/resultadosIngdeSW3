@@ -115,3 +115,11 @@ ng test --karma-config=karma.conf.js --watch=false --browsers ChromeHeadless
 B. Crear las pruebas unitarias necesarias para validar las modificaciones realizadas en el código
 ![Descripción de la imagen](images/im38.jpg)
 
+4.7 Modificamos el código de nuestro Front y creamos nuevas pruebas unitarias:
+A. Realizar en el código del front las mismas modificaciones hechas a la API.
+![Descripción de la imagen](images/im39.jpg)
+![Descripción de la imagen](images/im40.jpg)
+![Descripción de la imagen](images/im41.jpg)
+
+C. Crear las pruebas unitarias necesarias en el front para validar las modificaciones realizadas en el código del front.
+![Descripción de la imagen](images/im42.jpg)
