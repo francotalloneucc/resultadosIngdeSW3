@@ -1,6 +1,7 @@
 4- Desarrollo:
 Prerequisitos:
 Azure CLI instalado
+
 ![Descripción de la imagen](images/im1.jpg)
 
 4.1 Modificar nuestro pipeline para construir imágenes Docker de back y front y subirlas a ACR
@@ -8,9 +9,9 @@ Desarrollo del punto 4.1:
 4.1.1 Crear archivos DockerFile para nuestros proyectos de Back y Front
 En la raiz de nuestro repo crear una carpeta docker con dos subcarpetas api y front, dentro de cada una de ellas colocar los dockerfiles correspondientes para la creación de imágenes docker en función de la salida de nuestra etapa de Build y Test
 
-![Descripción de la imagen](images/im1.jpg)
-![Descripción de la imagen](images/im1.jpg)
-![Descripción de la imagen](images/im1.jpg)
+![Descripción de la imagen](images/im2.jpg)
+![Descripción de la imagen](images/im3.jpg)
+![Descripción de la imagen](images/im4.jpg)
 
 
 Crear un recurso ACR en Azure Portal
